@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <h1>Jira Ticket ID Extractor</h1>
-      <p>Paste here:</p>
+      <p>Paste here</p>
       <textarea
         cols={50}
         rows={20}
@@ -29,8 +29,8 @@ function App() {
       />
       {ids.length > 0 ? (
       <>
-      <h2>IDS:</h2>
-      <ul>
+      <h2 style={{marginBottom: -10, marginTop: 40}}>IDS</h2>
+      <ul style={{paddingInlineStart: 0}}>
         {ids.map((id, index) => (
           <li key={index} style={{ listStyle: 'none' }}>
             {id}
