@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <h1>ID Extractooooor</h1>
+      <h1>Jira Ticket ID Extractor</h1>
       <p>Paste here:</p>
       <textarea
         cols={50}
